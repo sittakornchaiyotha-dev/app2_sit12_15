@@ -37,12 +37,17 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
+            Column(
+              children: [
+                Text("sujdfadfdfsdjfsdjfk"),
+              ],
+            ),
             Row(
               children: [
                 Expanded(child: ElevatedButton(onPressed: () => {} ,
-                  child: Text("bottom"),
+                  child: Text("ติดตาม"),
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.deepPurpleAccent,
+                      backgroundColor: Colors.lightBlue,
                       foregroundColor: Colors.white,
                       shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(25)
                       )
@@ -56,9 +61,10 @@ class HomePage extends StatelessWidget {
                 Expanded(
                     child: OutlinedButton(
                       onPressed: () => {},
-                      child: Text("Botton2"),
+                      child: Text("ข้อความ"),
                       style: OutlinedButton.styleFrom(
-                          backgroundColor: Colors.purpleAccent
+                          backgroundColor: Colors.white54,
+                        foregroundColor: Colors.black,
                       ),
                     )
                 )
