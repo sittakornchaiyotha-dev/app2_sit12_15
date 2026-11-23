@@ -22,8 +22,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('my_social_Profile'),
+        title: const Text('my_social_profile'),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.menu),
+          ),
+        ],
       ),
+
       body: Column(
           children:[
             Row(
@@ -35,11 +42,20 @@ class HomePage extends StatelessWidget {
                     fit: BoxFit.cover,
                   ),
                 ),
+                SizedBox(
+
+                  width: 60,
+                  height: 100,
+                ),
+                Text("0"),
               ],
             ),
+
             Column(
               children: [
-                Text("sujdfadfdfsdjfsdjfk"),
+                Text("Sittakorn chaiyotha"),
+                Text("นักศึกษาแผนกเทคโนโยีสารสนเทศ"),
+                Text("ความรักเป็นเครื่องพิสูทร์ ส่วนใบมะกรูดอยู่ในเครื่องต้มยำ"),
               ],
             ),
             Row(
